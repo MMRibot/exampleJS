@@ -29,18 +29,22 @@ var friends = {
     }
 };
 
+//function that list all the properties in the passed object
 var list = function (obj){
     for(var prop in obj){
+      //for each prop in the obj log their names
         console.log(prop);
     }
 };
 
 var search = function (name, obj) {
   for(var prop in obj){
+    //if the first name of the property is the same as the searched name, the return the string with firstname, age and addrees parsed to a string because it is an array
     if(obj[prop].firstName === name) {
         //console.log(obj[prop]);
         return "This is " + obj[prop].firstName + " who is " + obj[prop].age + " and lives in " + obj[prop].address.toString();
     } else {
+      //if the searched name does not exist, display the message!
         return "There is no such person in this book!";
     }
   }
