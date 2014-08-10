@@ -76,5 +76,4 @@ addPerson ('Banana', 'Smoothie', '(650) 333-3333', 'bSmoothie@example.com');
 
 list();
 
-searchPerson(bob); //For some reason this function prints out the falback response for there not being such a person in the contact list! Why?
-//If I remove the condition it works as desired.
+searchPerson('Smoothie'); 
