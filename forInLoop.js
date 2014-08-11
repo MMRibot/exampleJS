@@ -32,7 +32,7 @@ for(var prop in nyc){
     console.log(prop);
 }
 
-//This literally only prints the property of nyc, NOT the values of those property. So the output of this loop will be:
+//This literally only prints the properties of nyc, NOT the values of those properties. So the output of this loop will be:
 
 // fullName
 // mayor
@@ -81,7 +81,7 @@ var nyc = {
 // write a for-in loop to print the value of nyc's properties
 
 for(var prop in nyc) {
-  //In the for/in loop we need to use the bracket notation because we have set the properties to a variable inside of the for loop (var prop)
-  //We are asigning the property name to a variable, which we choose to call 'prop'
     console.log(nyc[prop]);
+  //In the for/in loop we need to use the bracket notation because we have set the properties to a variable inside of the for loop (var prop)
+  //We are assigning the property name to a variable, which we choose to call 'prop'
 }
