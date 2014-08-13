@@ -34,13 +34,13 @@ Create your own switch statement in the editor. It can do anything you like! Mak
 var fruit = prompt("Choose a fruit!");
 
 switch(fruit) {
-    case "Apple":
+    case "Apples":
         console.log("I love " + fruit);
         break;
-    case "Banana":
+    case "Bananas":
         console.log("I love " + fruit);
         break;
-    case "Mango":
+    case "Mangos":
         console.log("I love " + fruit);
         break;
     default:
